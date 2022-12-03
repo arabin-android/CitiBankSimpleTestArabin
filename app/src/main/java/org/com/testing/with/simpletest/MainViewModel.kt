@@ -75,7 +75,7 @@ class MainViewModel : ViewModel() {
                 imageURL = "https://cdn4.iconfinder.com/data/icons/bettericons/354/github-512.png"
             ),
         )
-        _data.postValue(lstRes)
+        _data.postValue(lstRes.reversed())
     }
 
 }
